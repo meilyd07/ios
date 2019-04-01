@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A168E3622517AAD00CC86F7 /* MyAssimilationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A168E3522517AAD00CC86F7 /* MyAssimilationInfo.m */; };
 		E38F8D97224A3CDE009EF306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8D96224A3CDE009EF306 /* AppDelegate.m */; };
 		E38F8D9A224A3CDE009EF306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E38F8D99224A3CDE009EF306 /* ViewController.m */; };
 		E38F8D9F224A3CE0009EF306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38F8D9E224A3CE0009EF306 /* Assets.xcassets */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A168E3422517AAD00CC86F7 /* MyAssimilationInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAssimilationInfo.h; sourceTree = "<group>"; };
+		6A168E3522517AAD00CC86F7 /* MyAssimilationInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAssimilationInfo.m; sourceTree = "<group>"; };
 		E38F8D92224A3CDE009EF306 /* RSSchool_T2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38F8D95224A3CDE009EF306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E38F8D96224A3CDE009EF306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 			children = (
 				E38F8DD0224A8AEA009EF306 /* DoomsdayMachine.h */,
 				E38F8DD1224A8AEA009EF306 /* DoomsdayMachine.m */,
+				6A168E3422517AAD00CC86F7 /* MyAssimilationInfo.h */,
+				6A168E3522517AAD00CC86F7 /* MyAssimilationInfo.m */,
 			);
 			path = 3;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 			files = (
 				E38F8D9A224A3CDE009EF306 /* ViewController.m in Sources */,
 				E38F8DD2224A8AEA009EF306 /* DoomsdayMachine.m in Sources */,
+				6A168E3622517AAD00CC86F7 /* MyAssimilationInfo.m in Sources */,
 				E38F8DDA224BA508009EF306 /* MatrixHacker.m in Sources */,
 				E38F8DE1224D0B8F009EF306 /* TinyURL.m in Sources */,
 				E38F8DA5224A3CE0009EF306 /* main.m in Sources */,
@@ -388,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -441,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
