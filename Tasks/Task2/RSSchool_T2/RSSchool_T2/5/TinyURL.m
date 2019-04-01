@@ -16,6 +16,11 @@
     return self;
 }
 
+-(void)dealloc {
+    [self setShortUrlTable:nil];
+    [super dealloc];
+}
+
 - (NSString *)encodeStr:(NSString *)originalStr {
     [originalStr retain];
     NSString *characters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
