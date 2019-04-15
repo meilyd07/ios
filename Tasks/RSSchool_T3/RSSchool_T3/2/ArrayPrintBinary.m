@@ -7,7 +7,6 @@
 //
 
 #import "ArrayPrintBinary.h"
-#import "ArrayPrint.h"
 
 
 @implementation NSArray (RSSchoolnew_Extension_Name)
