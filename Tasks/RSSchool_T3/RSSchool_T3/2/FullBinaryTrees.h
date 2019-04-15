@@ -22,5 +22,6 @@
  Note: trailing null nodes are omitted from the output.
  */
 @interface FullBinaryTrees : NSObject
+@property(retain, nonatomic) NSMutableDictionary *resultDictionary;
 - (NSString *)stringForNodeCount:(NSInteger)count;
 @end

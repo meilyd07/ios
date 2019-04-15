@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AE11615226368CD001A7DA1 /* ArrayPrintBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE11614226368CD001A7DA1 /* ArrayPrintBinary.m */; };
 		E3821557225B533B00E3B12B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3821556225B533B00E3B12B /* AppDelegate.m */; };
 		E382155F225B533E00E3B12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E382155E225B533E00E3B12B /* Assets.xcassets */; };
 		E3821562225B533E00E3B12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3821560225B533E00E3B12B /* LaunchScreen.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AE11613226368CD001A7DA1 /* ArrayPrintBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayPrintBinary.h; sourceTree = "<group>"; };
+		6AE11614226368CD001A7DA1 /* ArrayPrintBinary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayPrintBinary.m; sourceTree = "<group>"; };
 		E3821552225B533B00E3B12B /* RSSchool_T3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3821555225B533B00E3B12B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3821556225B533B00E3B12B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				E39C2562225B683500C3BCC1 /* FullBinaryTrees.h */,
+				6AE11613226368CD001A7DA1 /* ArrayPrintBinary.h */,
+				6AE11614226368CD001A7DA1 /* ArrayPrintBinary.m */,
 				E39C2563225B683500C3BCC1 /* FullBinaryTrees.m */,
 				E39C2566225B877F00C3BCC1 /* ExampleTrees.png */,
 			);
@@ -300,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E39C256C225B898A00C3BCC1 /* ArrayPrint.m in Sources */,
+				6AE11615226368CD001A7DA1 /* ArrayPrintBinary.m in Sources */,
 				E3821565225B533E00E3B12B /* main.m in Sources */,
 				E39C2577225CAA7E00C3BCC1 /* DateMachine.m in Sources */,
 				E3821557225B533B00E3B12B /* AppDelegate.m in Sources */,
@@ -470,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42K4QGQ7K4;
 				INFOPLIST_FILE = RSSchool_T3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42K4QGQ7K4;
 				INFOPLIST_FILE = RSSchool_T3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
