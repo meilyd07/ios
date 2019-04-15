@@ -210,7 +210,7 @@
             if ([string rangeOfCharacterFromSet:set].location != NSNotFound) {
                 return NO;
             }
-            if ([textField.text length] > 3) {
+            if ([textField.text length] > 6) {
                 if (![self validateString:string withPattern:@"\b(year|month|week|day|hour|minute)\b"]) {
                     return NO;
                 }
