@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AF3667D226BD42D00F3C942 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF3667C226BD42D00F3C942 /* MainViewController.m */; };
 		BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B5522268ED9F0060BDF3 /* AppDelegate.m */; };
 		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AF3667B226BD42D00F3C942 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6AF3667C226BD42D00F3C942 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		BD47B54E2268ED9F0060BDF3 /* RSSchool_T4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD47B5512268ED9F0060BDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD47B5522268ED9F0060BDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 				BD47B5612268F8120060BDF3 /* PhoneNumber.pdf */,
 				BD47B5512268ED9F0060BDF3 /* AppDelegate.h */,
 				BD47B5522268ED9F0060BDF3 /* AppDelegate.m */,
+				6AF3667B226BD42D00F3C942 /* MainViewController.h */,
+				6AF3667C226BD42D00F3C942 /* MainViewController.m */,
 				BD47B5542268EDA10060BDF3 /* Assets.xcassets */,
 				BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */,
 				BD47B5592268EDA10060BDF3 /* Info.plist */,
@@ -137,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
+				6AF3667D226BD42D00F3C942 /* MainViewController.m in Sources */,
 				BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
